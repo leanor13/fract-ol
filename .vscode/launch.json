@@ -1,0 +1,32 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+            "name": "HOME (lldb) Launch Main",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/fractol",
+            "args": ["j", "1.09", "0.8"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+        },
+        {
+            "name": "HOME (lldb) Launch libft",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/includes/libft/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/includes/libft",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+        },
+	]
+}

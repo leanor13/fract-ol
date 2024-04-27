@@ -1,0 +1,7 @@
+{
+	"files.associations": {
+		"ratio": "c",
+		"mlx.h": "c",
+		"locale": "c"
+	}
+}
